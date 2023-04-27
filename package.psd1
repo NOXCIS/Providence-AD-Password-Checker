@@ -1,6 +1,6 @@
 @{
-    Root = 'c:\Users\sa_le\Desktop\Cryptos\run.ps1'
-    OutputPath = 'c:\Users\sa_le\Desktop\Cryptos\out'
+    Root = 'C:\Users\sa_le\Documents\GitHub\Providence-AD-Password-Checker\run.ps1'
+    OutputPath = 'C:\Users\sa_le\Documents\GitHub\Providence-AD-Password-Checker\out'
     Package = @{
         Enabled = $true
         Obfuscate = $true
@@ -8,11 +8,11 @@
         DotNetVersion = 'v4.6.2'
         FileVersion = '1.0.0'
         FileDescription = ''
-        ProductName = 'Cryptos'
-        ProductVersion = '1.0'
-        Copyright = 'South Dakota State University'
+        ProductName = 'Providence Ad Tools'
+        ProductVersion = '0.1'
+        Copyright = 'NOXCIS @ Github'
         RequireElevation = $false
-        ApplicationIconPath = 'C:\Users\sa_le\Desktop\Cryptos\Images\icon.ico'
+        ApplicationIconPath = 'C:\Users\sa_le\Documents\GitHub\Providence-AD-Password-Checker\Images\icon.ico'
         PackageType = 'Console'
     }
     Bundle = @{
